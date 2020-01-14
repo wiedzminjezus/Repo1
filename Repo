@@ -1,0 +1,7 @@
+driver.get("https://google.pl");
+		driver.findElement(By.name("q")).sendKeys("Hello webdriver |!|");
+		driver.findElement(By.id("gsr")).click();
+    
+    Thread.sleep(10000);
+		
+		driver.quit();
